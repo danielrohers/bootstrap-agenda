@@ -1,0 +1,48 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.agenda {
+    margin-top: 50px;
+}
+
+.agenda__date {
+    height: 80px;
+    margin: 20px 0;
+}
+
+.agenda__number {
+    display: block;
+    background: red;
+    height: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-right: 3px solid #000;
+}
+
+.agenda__number span {
+    display: block;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.agenda__number--day {
+    top: 40%;
+    font-size: 30px;
+}
+
+.agenda__number--month {
+    top: 25%;
+    font-size: 20px;
+}
+
+.agenda__description {
+    background-color: #E0DFCC;
+    height: 100%;
+}
+
+.agenda__description header {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 5px 0;
+}
